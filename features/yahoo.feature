@@ -14,5 +14,5 @@ Feature: Viewing calendar market data
         And I click Calendar
         Then I should see  earnings,stock splits,IPOs and economic events for the given day
             | Date   | earnings | stock splits | IPOs | Economic Events |
-            | 14 Mar | 39       | 10           | 2    | 75              |
-            | 15 Mar | 54       | 15           | 0    | 114             |
+            | 14 Mar | 39       | 10           | 2    | 70              |
+            | 15 Mar | 54       | 15           | 0    | 113             |
